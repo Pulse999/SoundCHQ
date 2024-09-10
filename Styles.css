@@ -164,22 +164,6 @@ nav svg {
   color: #fff;
 }
 
-.main-quote {
-  position: absolute;
-  width: 60%;
-  height: 50%;
-  align-self: center;
-  justify-self: center;
-  top: 220px;
-  text-transform: uppercase;
-  font-style: italic;
-}
-
-.main-quote p {
-  margin-left: 280px;
-  font-weight: bolder;
-}
-
 .professional-sound {
   position: relative;
   top: 310px;
@@ -682,6 +666,29 @@ span:hover::after {
 /* Pillars */
 
 /* phone dimensions */
+
+@media (min-width: 300px) {
+  .menu {
+      position: relative;
+      right: 12px;
+  }
+  .professional-sound {
+    position: relative;
+    top: 230px;
+  }
+}
+
+@media (min-width: 319px) {
+  .menu {
+      position: relative;
+      right: 12px;
+  }
+  .professional-sound {
+    position: relative;
+    top: 230px;
+  }
+}
+
 @media (min-width: 320px) {
   .menu {
       position: relative;
@@ -691,21 +698,6 @@ span:hover::after {
     position: relative;
     top: 230px;
   }
-  
-  .svg-div {
-    position: relative;
-    top: 190px;
-    left: 5px;
-  }
-
-  .main-quote {
-    top: 220px;
-  }
-
-  .main-quote p {
-    margin-left: 60px;
-    font-weight: bolder;
-  }
 }
 
 @media (min-width: 360px) {
@@ -714,19 +706,9 @@ span:hover::after {
       left: 10px;    
   }
 
-  .main-quote {
-    top: 300px;
-  }
-
   .professional-sound {
     position: relative;
     top: 280px;
-  }
-  
-  .svg-div {
-    position: relative;
-    top: 242px;
-    left: 5px;
   }
 }
 
@@ -739,12 +721,6 @@ span:hover::after {
     position: relative;
     top: 230px;
   }
-  
-  .svg-div {
-    position: relative;
-    top: 190px;
-    left: 5px;
-  }
 
   .socials {
     left: 90%;
@@ -754,16 +730,6 @@ span:hover::after {
 @media (min-width: 412px) {
   .professional-sound {
     position: relative;
-    top: 400px;
-  }
-  
-  .svg-div {
-    position: relative;
-    top: 360px;
-    left: 5px;
-  }
-
-  .main-quote {
     top: 400px;
   }
 }
@@ -777,36 +743,13 @@ span:hover::after {
     position: relative;
     top: 230px;
   }
-  
-  .svg-div {
-    position: relative;
-    top: 190px;
-    left: 5px;
-  }
-
-  .main-quote {
-    top: 300px;
-  }
 }
 
 @media (min-width: 500px) {
-  .main-quote {
-    top: 400px;
-  }
 
   .professional-sound {
     position: relative;
     top: 180px;
-  }
-  
-  .svg-div {
-    position: relative;
-    top: 140px;
-    left: 5px;
-  }
-
-  .main-quote {
-    top: 300px;
   }
 }
 
@@ -835,25 +778,10 @@ span:hover::after {
   left: 100px;
  }
 
-  .main-quote {
-    top: 500px;
-    font-size:xx-large;
-  }
-
   .professional-sound {
     position: relative;
     top: 480px;
     font-size: xx-large;
-  }
-  
-  .svg-div {
-    position: relative;
-    top: 400px;
-    left: 5px;
-  }
-
-  svg {
-    width: 2em;
   }
 
   .h2 {
@@ -955,25 +883,10 @@ span:hover::after {
   left: 100px;
  }
 
-  .main-quote {
-    top: 500px;
-    font-size:xx-large;
-  }
-
   .professional-sound {
     position: relative;
     top: 480px;
     font-size: xx-large;
-  }
-  
-  .svg-div {
-    position: relative;
-    top: 400px;
-    left: 5px;
-  }
-
-  svg {
-    width: 2em;
   }
 
   .h2 {
@@ -1095,27 +1008,10 @@ span:hover::after {
     margin-right: 10px;
 }
 
-  .main-quote {
-    top: 330px;
-    font-size:x-large;
-    width: 50%;
-    left: 33%;
-  }
-
   .professional-sound {
     position: relative;
     top: 280px;
     font-size: xx-large;
-  }
-  
-  .svg-div {
-    position: relative;
-    top: 205px;
-    left: 5px;
-  }
-
-  svg {
-    width: 2em;
   }
 
   .work {
