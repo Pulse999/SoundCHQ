@@ -667,6 +667,17 @@ span:hover::after {
 
 /* phone dimensions */
 
+@media (min-width: 298px) {
+  .menu {
+      position: relative;
+      right: 12px;
+  }
+  .professional-sound {
+    position: relative;
+    top: 201px;
+  }
+}
+
 @media (min-width: 300px) {
   .menu {
       position: relative;
