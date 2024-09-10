@@ -667,14 +667,14 @@ span:hover::after {
 
 /* phone dimensions */
 
-@media (min-width: 298px) {
+@media (min-width: 249px) {
   .menu {
       position: relative;
       right: 12px;
   }
   .professional-sound {
     position: relative;
-    top: 201px;
+    top: 200px;
   }
 }
 
