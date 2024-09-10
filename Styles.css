@@ -452,7 +452,7 @@ h5::after {
   align-items: center;
   justify-content: center;
   width: 83%;
-  height: 120px;
+  height: 125px;
   font-size: small;
   font-weight: bold;
   color: #ffff;
@@ -991,15 +991,16 @@ span:hover::after {
  .socials {
   left: 97%;
   width: 50px;
-  height: 130px;
+  height: 80px;
   align-content: center;
+  border-radius: 15px 0 0 15px;
  }
 
  .whatsapp, .facebook, .instagram {
   position: relative;
-  width: 40px;
-  height: 35px;
-  left: 5px;
+  width: 25px;
+  height: 20px;
+  left: 10px;
 }
 
 
@@ -1130,7 +1131,7 @@ span:hover::after {
   .sq-heading {
     margin-top: 0px;
     margin-bottom: 0px;
-    top: 40px;
+    top: 20px;
     left: 230px;
     bottom: 0px;
     width: 400px;
@@ -1166,6 +1167,7 @@ span:hover::after {
     max-height: 500px;
     justify-content: flex-start;
     font-size: larger;
+    top: 25px;
     left: 210px;
     background-color: transparent;
   }
