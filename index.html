@@ -40,8 +40,12 @@
     </header>
     
     <main>
-        <div class="hero">
-            <div class="professional-sound">
+        <div class="hero" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+            <div class="professional-sound" data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
                 <h1>SoundCHQ Audio</h1>
                 <p>Your professional</p>
                 <p>Audio Engineer</p>
@@ -137,11 +141,31 @@
             </div>
             <div class="end" data-aos="fade-up"
             data-aos-duration="3000">
-                <p>For professional and reliable services</p><br>
-                <span>
-                    <input class="swing" id="artist" type="email" placeholder="Enter your email here" /><label for="artist">Email</label>
-                </span> <br>
-                <span><button type="submit">SEND</button></span><br>
+                <p>For professional services</p><br>
+                <p>Get in touch</p><br>
+                
+                <form id="contactForm" action="thankyou.html" method="POST">
+                    <span>
+                        <input class="gate" id="class" type="text" placeholder="Name" required/><label for="class">Name</label>
+                    </span> <br>
+    
+                    <span>
+                        <input class="gate" id="class" type="text" placeholder="Surname" required/><label for="class">Surname</label>
+                    </span> <br>
+    
+                    <span>
+                        <input class="swing" id="artist" type="email" placeholder="Enter your email here" required/><label for="artist">Email</label>
+                    </span> <br>
+    
+                    <span>
+                        <input class="card-slide" id="knock" type="tel" placeholder="Phone Number" required/><label for="knock">Phone</label>
+                    </span> <br>
+    
+                    <span><textarea name="message" rows="5" placeholder="Your Message" required></textarea></span> <br>
+
+                    <span><button type="submit">SEND</button></span><br>
+                </form>
+
                 <div class="attribution"> 
                     &copy; 2024 Coded by <a href="#">KeneThembinkosi999@gmail.com</a>
                   </div>
