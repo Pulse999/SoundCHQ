@@ -1412,7 +1412,7 @@ span:hover::after {
   .swing + label {
     display: flex;
     width: 43px;
-    height: 23px;
+    height: 20px;
     justify-content: center;
     align-items: center;
   }
