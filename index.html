@@ -144,21 +144,21 @@
                 <p>For professional services</p><br>
                 <p>Get in touch</p><br>
                 
-                <form id="contactForm" action="thankyou.html" method="POST">
+                <form action="/submit-form" method="POST">
                     <span>
-                        <input class="gate" id="class" type="text" placeholder="Name" required/><label for="class">Name</label>
+                        <input class="gate" id="class" name="name" type="text" placeholder="Name" required/><label for="class">Name</label>
                     </span> <br>
     
                     <span>
-                        <input class="gate" id="class" type="text" placeholder="Surname" required/><label for="class">Surname</label>
+                        <input class="gate" id="class" name="surname" type="text" placeholder="Surname" required/><label for="class">Surname</label>
                     </span> <br>
     
                     <span>
-                        <input class="swing" id="artist" type="email" placeholder="Enter your email here" required/><label for="artist">Email</label>
+                        <input class="swing" id="artist" name="email" type="email" placeholder="Enter your email here" required/><label for="artist">Email</label>
                     </span> <br>
     
                     <span>
-                        <input class="card-slide" id="knock" type="tel" placeholder="Phone Number" required/><label for="knock">Phone</label>
+                        <input class="card-slide" id="knock" name="phone" type="tel" placeholder="Phone Number" required/><label for="knock">Phone</label>
                     </span> <br>
     
                     <span><textarea name="message" rows="5" placeholder="Your Message" required></textarea></span> <br>

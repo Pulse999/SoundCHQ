@@ -59,10 +59,11 @@ window.addEventListener('scroll', function() {
 // Thank you page when on-click submitt 
 
 // Add an event listener to the form
-document.getElementById("contactForm").addEventListener("submit", function(event) {
-  // Prevent the default form submission behavior
-  event.preventDefault();
+// document.getElementById("contactForm").addEventListener("submit", function(event) {
+//   // Prevent the default form submission behavior
+//   event.preventDefault();
   
-  // Redirect to the "Thank You" page
-  window.location.href = "thankyou.html";
-});
+//   // Redirect to the "Thank You" page
+//   window.location.href = "thankyou.html";
+// });
+

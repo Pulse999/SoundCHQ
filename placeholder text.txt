@@ -2,3 +2,9 @@ I’m SQ, a passionate live sound engineer with two years of hands-on experience
 
 
 https://wa.me/659006020 kats whatsapp link
+
+For testing live server hosting:
+
+run gitbash with: node server.js to run local port 3000 on your local server desktop
+
+open the index.html with this: http://localhost:3000/index.html
