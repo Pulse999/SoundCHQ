@@ -534,6 +534,7 @@ form {
 .swing + label {
   display: inline-block;
   position: absolute;
+  height: 15px;
   top: 0;
   left: 0;
   padding: 10px 15px;
@@ -590,6 +591,7 @@ form {
 .gate + label {
   display: inline-block;
   position: absolute;
+  height: 15px;
   top: 0;
   left: 0;
   padding: 10px 15px;
@@ -706,6 +708,7 @@ span:nth-child(2) .gate:active {
 .card-slide + label {
   display: block;
   position: absolute;
+  height: 15px;
   top: 0;
   left: 0;
   padding: 10px 15px;

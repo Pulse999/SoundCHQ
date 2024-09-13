@@ -26,15 +26,15 @@ app.post('/submit-form', (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: 'pulse101tap999@gmail.com', // Your Gmail
-      pass: 'ihpv bqsf grok ktfj'   // Your Gmail password or app password
+      user: 'soundchqaudio@gmail.com', // Your Gmail
+      pass: 'ajvg frbp fqhn wicg'   // Your Gmail password or app password
     }
   });
 
   // Email sent to yourself with the form data
   const mailOptionsToYou = {
     from: email, // Sender's email
-    to: 'pulse101tap999@gmail.com', // Your email
+    to: 'soundchqaudio@gmail.com', // Your email
     subject: 'New Contact Form Submission',
     text: `You have received a new message from the contact form.
            Name: ${name} ${surname}
@@ -45,17 +45,29 @@ app.post('/submit-form', (req, res) => {
 
   // Auto-reply email sent to the customer
   const mailOptionsToCustomer = {
-    from: 'pulse101tap999@gmail.com', // Your email
+    from: 'soundchqaudio@gmail.com', // Your email
     to: email, // Customer's email (dynamic from the form input)
     subject: 'Thank you for reaching out!',
-    text: `Hi ${name}, 
-           Thank you for contacting [Your Company Name].
-           We specialize in [brief description of your services].
-           Feel free to reply for more information.
+    text: `Hello there ${name},
+     
+           Thank you for contacting SoundCHQ Audio
 
-           Best regards,
-           [Your Name]
-           [Your Company Name]`
+           We offer Audio Solutions for
+           -Weddings
+           -Corporate events
+           -Live performances (School productions,
+            Theatre etc.)
+           -FOH Engineering
+           -Monitor Engineering
+           -Sound Tech Runner
+           -RF Engineering
+           -Mixing and Mastering
+
+           For any queries do not hesitate to reply
+
+           Best regards
+           SQ
+           SoundCHQ Audio`
   };
 
   // Send email to yourself with form data
