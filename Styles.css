@@ -475,6 +475,7 @@ h5::after {
   font-weight: bolder;
   margin-top: 30px;
   color: #ffff;
+  font-style: italic;
 }
 
 .end {
@@ -914,7 +915,7 @@ span:hover::after {
   }
   .professional-sound {
     position: relative;
-    top: 230px;
+    top: 200px;
   }
 }
 
@@ -969,6 +970,72 @@ span:hover::after {
     position: relative;
     top: 180px;
   }
+
+  .menu {
+    left: 60px;
+  }
+}
+
+@media (min-width: 600px) {
+
+  .professional-sound {
+    position: relative;
+    top: 180px;
+  }
+
+  .socials {
+    left: 97.5%;
+  }
+
+  .menu {
+    left: 80px;
+  }
+}
+
+@media (min-width: 655px) {
+
+  .professional-sound {
+    position: relative;
+    top: 180px;
+  }
+
+  .socials {
+    left: 97.5%;
+    width: 50px;
+    height: 80px;
+    align-content: center;
+    border-radius: 15px 0 0 15px;
+   }
+  
+   .whatsapp, .facebook, .instagram {
+    position: relative;
+    width: 25px;
+    height: 20px;
+    left: 10px;
+  }
+
+}
+
+@media (min-width: 728px) {
+  .menu {
+    position: relative;
+    left: 150px;    
+ }
+
+  .socials {
+    left: 97%;
+    width: 50px;
+    height: 80px;
+    align-content: center;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .whatsapp, .facebook, .instagram {
+    position: relative;
+    width: 25px;
+    height: 20px;
+    left: 10px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -978,17 +1045,18 @@ span:hover::after {
  }
 
  .socials {
-  left: 90%;
-  width: 300px;
-  height: 250px;
+  left: 97%;
+  width: 50px;
+  height: 80px;
   align-content: center;
+  border-radius: 15px 0 0 15px;
  }
 
  .whatsapp, .facebook, .instagram {
   position: relative;
-  width: 40px;
-  height: 35px;
-  left: 24px;
+  width: 25px;
+  height: 20px;
+  left: 10px;
 }
 
 
@@ -1056,14 +1124,11 @@ span:hover::after {
   }
 
   .swing {
-    width: 300px;
-    height: 40px;
+    width: 215px;
   }
 
   .swing + label {
     display: flex;
-    width: 50px;
-    height: 50px;
     justify-content: center;
     align-items: center;
   }
@@ -1083,18 +1148,12 @@ span:hover::after {
  }
 
  .socials {
-  left: 90%;
-  width: 300px;
-  height: 250px;
+  left: 97%;
+  width: 50px;
+  height: 80px;
   align-content: center;
+  border-radius: 15px 0 0 15px;
  }
-
- .whatsapp, .facebook, .instagram {
-  position: relative;
-  width: 40px;
-  height: 35px;
-  left: 24px;
-}
 
 
  .soundchq {
@@ -1161,14 +1220,14 @@ span:hover::after {
   }
 
   .swing {
-    width: 300px;
+    width: 215px;
     height: 20px;
   }
 
   .swing + label {
     display: flex;
     width: 50px;
-    height: 50px;
+    height: 20px;
     justify-content: center;
     align-items: center;
   }
@@ -1177,6 +1236,11 @@ span:hover::after {
     font-size: x-large;
     margin-top: 200px;
   }
+}
+
+@media (min-width: 900px) {
+
+  
 }
 
 @media (min-width: 1000px) {
