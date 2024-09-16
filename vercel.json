@@ -17,11 +17,11 @@
     },
     {
       "src": "/",
-      "dest": "/SoundCHQ/index.html" 
+      "dest": "/SoundCHQ/index.html"
     },
     {
       "src": "/(.*)",
-      "dest": "/SoundCHQ/$1" 
+      "dest": "/SoundCHQ/$1"
     }
   ]
 }
