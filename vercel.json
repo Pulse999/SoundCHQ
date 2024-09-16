@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "server.js",
+      "src": "SoundCHQ/server.js",
       "use": "@vercel/node"
     },
     {
-      "src": "*.html", 
+      "src": "SoundCHQ/**/*",
       "use": "@vercel/static"
     }
   ],
@@ -17,7 +17,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/SoundCHQ/index.html"
     }
   ]
 }
