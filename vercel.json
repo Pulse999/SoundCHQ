@@ -16,8 +16,12 @@
       "dest": "/api/submit-form"
     },
     {
+      "src": "/",
+      "dest": "/SoundCHQ/index.html" 
+    },
+    {
       "src": "/(.*)",
-      "dest": "/SoundCHQ/index.html"
+      "dest": "/SoundCHQ/$1" 
     }
   ]
 }
