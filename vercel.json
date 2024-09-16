@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "thank-you.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Styles.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "contact.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "script.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Img/**/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "fonts/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/submit-form",
+      "dest": "/api/submit-form" 
+    },
+    {
+      "src": "/",
+      "dest": "/index.html" 
+    },
+    {
+      "src": "/thank-you",
+      "dest": "/thank-you.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1" 
+    }
+  ]
+}
