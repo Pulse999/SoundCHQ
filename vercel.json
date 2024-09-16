@@ -6,7 +6,7 @@
       "use": "@vercel/node"
     },
     {
-      "src": "*.html",  
+      "src": "SoundCHQ/**/*",
       "use": "@vercel/static"
     }
   ],
@@ -17,7 +17,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/SoundCHQ/$1"
     }
   ]
 }
