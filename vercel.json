@@ -4,20 +4,12 @@
     {
       "src": "server.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "root/**/*",
-      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/submit-form",
       "dest": "/api/submit-form"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/root/$1"
     }
   ]
 }
