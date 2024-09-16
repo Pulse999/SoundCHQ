@@ -2,11 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "SoundCHQ/server.js",
+      "src": "server.js",
       "use": "@vercel/node"
     },
     {
-      "src": "SoundCHQ/**/*",
+      "src": "*.html",  
       "use": "@vercel/static"
     }
   ],
@@ -16,12 +16,8 @@
       "dest": "/api/submit-form"
     },
     {
-      "src": "/",
-      "dest": "/SoundCHQ/index.html"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/SoundCHQ/$1"
+      "dest": "/index.html"
     }
   ]
 }
