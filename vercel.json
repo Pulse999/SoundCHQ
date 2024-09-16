@@ -37,7 +37,7 @@
   "routes": [
     {
       "src": "/submit-form",
-      "dest": "/api/submit-form" 
+      "dest": "/server.js"  
     },
     {
       "src": "/",
@@ -45,11 +45,11 @@
     },
     {
       "src": "/thank-you",
-      "dest": "/thank-you.html"
+      "dest": "/thank-you.html" 
     },
     {
       "src": "/(.*)",
-      "dest": "/$1" 
+      "dest": "/$1"
     }
   ]
 }
