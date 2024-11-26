@@ -131,20 +131,24 @@ nav svg {
   justify-content: space-between;
   width: 2em;
   margin-right: 1px;
+  cursor: pointer;
 }
 
 .menu, .close-sidebar-button {
   padding: 20px;
   display:block;
   margin-left: 40px;
+  cursor: pointer;
 }
 
 .open-sidebar-button {
   position: relative;
+  cursor: pointer;
 }
 
 #sidebar-active:checked ~ .links-container {
   right: 0;
+  cursor: pointer;
 }
 /* Nav */
 
